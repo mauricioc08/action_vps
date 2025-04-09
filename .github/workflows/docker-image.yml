@@ -16,7 +16,7 @@
       steps:
         - name: Deploy to production server
           run: |
-            sshpass -p '${{ secrets.SSH_PASSWORD }}' ssh -o StrictHostKeyChecking=no ${{ secrets.USER }}@${{ secrets.HOST }} \
+            sshpass -p '${{ secrets.SSH_PASSWORD }}' ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
             "cd action_vps && git pull && docker compose up -d"
           env:
             SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
