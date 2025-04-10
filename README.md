@@ -27,6 +27,14 @@ Para garantir a segurança do acesso à sua VPS, utilizamos **GitHub Secrets** p
    - **Secret:** sua_senha_da_vps  
 
    Repita o processo para `SSH_USER` e `SSH_HOST`.
+   
+![secret](https://github.com/user-attachments/assets/4622bb3f-9fcd-4392-acbd-e9440776ebae)
+
+
+### 📌 Passo a passo para fazer o clone na vps
+
+1. Acesse a VPS
+2. Faça o clone do repositório
 
 ---
 
