@@ -35,6 +35,7 @@ Para garantir a segurança do acesso à sua VPS, utilizamos **GitHub Secrets** p
 
 1. Acesse a VPS
 2. Faça o clone do repositório
+3. Fazer deploy no Github
 
 ---
 
